@@ -11,16 +11,20 @@ struct ContentView: View {
     var body: some View {
         VStack{
             MapView()
-                .frame(height: 300)
+                .frame(height: 400)
             
-            CircleImage().offset(y: -170).padding(.bottom, -130)
+            CircleImage().offset(y: -70).padding(.bottom, -10)
             VStack {
                 Image(systemName: "globe")
                     .imageScale(.large)
                     .foregroundStyle(.tint)
-                Text("World Rock!")
+                Text("Perfil")
                     .font(.title)
-                    .foregroundColor(.white)
+                    .foregroundColor(.black)
+                
+                Divider()
+                    .padding()
+                
                 HStack {
                     Text("Joao Ricardo Martins Ribeiro")
                         .font(.subheadline)
@@ -31,7 +35,9 @@ struct ContentView: View {
                         .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                 }
             }
-            .padding()
+            
+            Divider()
+                .padding()
         }
         .padding()
     }
