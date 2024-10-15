@@ -34,12 +34,12 @@ struct ContentView: View {
                         .font(.subheadline)
                         .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                 }
+                .padding()
             }
             
             Divider()
                 .padding()
         }
-        .padding()
     }
 }
 
