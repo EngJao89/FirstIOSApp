@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3412A18B2CC74A77004451B0 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3412A18A2CC74A77004451B0 /* HexagonParameters.swift */; };
 		34A1279C2CC496910023787C /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A1279B2CC496910023787C /* FavoriteButton.swift */; };
 		34A3B16E2CBDE1F30077D76D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 34A3B16D2CBDE1F30077D76D /* landmarkData.json */; };
 		34A3B1702CBDE6450077D76D /* LandMarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A3B16F2CBDE6450077D76D /* LandMarkRow.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3412A18A2CC74A77004451B0 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		34A1279B2CC496910023787C /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		34A3B16D2CBDE1F30077D76D /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		34A3B16F2CBDE6450077D76D /* LandMarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkRow.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				34E11D602CB6AB8000727F20 /* ContentView.swift */,
 				34A127A02CC4978E0023787C /* Helper */,
 				34A1279E2CC497580023787C /* Landmarks */,
+				3412A18A2CC74A77004451B0 /* HexagonParameters.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				34A3B1702CBDE6450077D76D /* LandMarkRow.swift in Sources */,
 				34E11D612CB6AB8000727F20 /* ContentView.swift in Sources */,
 				34A1279C2CC496910023787C /* FavoriteButton.swift in Sources */,
+				3412A18B2CC74A77004451B0 /* HexagonParameters.swift in Sources */,
 				34A3B1742CBDF2190077D76D /* LandmarkList.swift in Sources */,
 				34A3B1762CBDFD450077D76D /* LandmarkDetail.swift in Sources */,
 				34FCC9312CBC76D5006B428B /* MapView.swift in Sources */,
