@@ -74,6 +74,13 @@
 			path = Badges;
 			sourceTree = "<group>";
 		};
+		345D629D2CCB24B200B3D5F5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		34A1279E2CC497580023787C /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +133,7 @@
 		34E11D522CB6AB8000727F20 = {
 			isa = PBXGroup;
 			children = (
+				345D629D2CCB24B200B3D5F5 /* Resource */,
 				34E11D5D2CB6AB8000727F20 /* FirstApp */,
 				34E11D5C2CB6AB8000727F20 /* Products */,
 			);
