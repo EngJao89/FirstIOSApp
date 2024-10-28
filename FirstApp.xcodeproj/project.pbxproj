@@ -31,6 +31,7 @@
 		34E11D662CB6AB8200727F20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E11D652CB6AB8200727F20 /* Preview Assets.xcassets */; };
 		34FA41C92CCF325C00C40B37 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA41C82CCF325C00C40B37 /* CategoryHome.swift */; };
 		34FA41CB2CCF331B00C40B37 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA41CA2CCF331B00C40B37 /* CategoryRow.swift */; };
+		34FA41CD2CCF34CC00C40B37 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA41CC2CCF34CC00C40B37 /* CategoryItem.swift */; };
 		34FCC92F2CBC75B4006B428B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FCC92E2CBC75B4006B428B /* CircleImage.swift */; };
 		34FCC9312CBC76D5006B428B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FCC9302CBC76D5006B428B /* MapView.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		34E11D652CB6AB8200727F20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		34FA41C82CCF325C00C40B37 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		34FA41CA2CCF331B00C40B37 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		34FA41CC2CCF34CC00C40B37 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		34FCC92E2CBC75B4006B428B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		34FCC9302CBC76D5006B428B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,6 +195,7 @@
 			children = (
 				34FA41C82CCF325C00C40B37 /* CategoryHome.swift */,
 				34FA41CA2CCF331B00C40B37 /* CategoryRow.swift */,
+				34FA41CC2CCF34CC00C40B37 /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				34192FB22CCC8FD800740BA1 /* HikeDetails.swift in Sources */,
 				34192FB42CCC90CC00740BA1 /* HikeGraph.swift in Sources */,
 				34E11D612CB6AB8000727F20 /* ContentView.swift in Sources */,
+				34FA41CD2CCF34CC00C40B37 /* CategoryItem.swift in Sources */,
 				34A1279C2CC496910023787C /* FavoriteButton.swift in Sources */,
 				3496EFE42CCB345E0092BA73 /* HikeView.swift in Sources */,
 				3412A18B2CC74A77004451B0 /* HexagonParameters.swift in Sources */,
