@@ -12,18 +12,19 @@ struct LandmarkList: View {
     @State private var showFavoritesOnly = false
 
     var filteredLandmarks: [Landmark] {
-        landmarks.filter {landmark in
+        modelData.landmarks.filter { landmark in
             (!showFavoritesOnly || landmark.isFavorite)
         }
     }
 
     var body: some View {
         NavigationSplitView {
-            List{
+            List {
                 Toggle(isOn: $showFavoritesOnly) {
-                    Text("Favorite Only")
+                    Text("Favorites only")
                 }
-                    ForEach(filteredLandmarks) { landmark in
+
+                ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
                     } label: {
@@ -43,3 +44,4 @@ struct LandmarkList: View {
     LandmarkList()
         .environment(ModelData())
 }
+
