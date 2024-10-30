@@ -11,7 +11,6 @@ struct LandmarkDetail: View {
     @Environment(ModelData.self) var modelData
     var landmark: Landmark
 
-
     var landmarkIndex: Int {
         modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
     }

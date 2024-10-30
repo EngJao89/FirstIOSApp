@@ -44,4 +44,3 @@ struct LandmarkList: View {
     LandmarkList()
         .environment(ModelData())
 }
-
