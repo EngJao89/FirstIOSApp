@@ -77,4 +77,3 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
         }
     }
 }
-
