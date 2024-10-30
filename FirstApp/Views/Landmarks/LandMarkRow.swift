@@ -34,4 +34,3 @@ struct LandmarkRow: View {
         LandmarkRow(landmark: landmarks[1])
     }
 }
-
