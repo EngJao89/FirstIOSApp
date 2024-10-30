@@ -45,4 +45,3 @@ struct ProfileHost: View {
     ProfileHost()
         .environment(ModelData())
 }
-
